@@ -29,7 +29,7 @@ class Login extends React.Component {
                 this.setState({
                     displayModal: false,
                 })
-                message.success(`Welcome back, ${data.userId}`);
+                message.success(`Welcome back, ${data.name}`); // 此处是json格式，因为data是json格式的！
                 // call signinOnSuccess passed from App component
                 this.props.onSuccess();
             }).catch((err) => {
