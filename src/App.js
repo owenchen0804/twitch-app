@@ -149,7 +149,7 @@ class App extends React.Component {
                 onSelect={this.onGameSelect}
                 style={{ marginTop: '10px' }}
             >
-              <Menu.Item icon={<LikeOutlined />} key="Recommendataion">
+              <Menu.Item icon={<LikeOutlined />} key="Recommendation">
                 Recommend for you!
               </Menu.Item>
               <SubMenu icon={<FireOutlined />} key="Popular Games" title="Popular Games">
